@@ -7,11 +7,11 @@ const styles = StyleSheet.create({
       backgroundColor: "black",
       borderTopLeftRadius: 6,
       borderBottomRightRadius: 6,
+      borderBottomLeftRadius: 6,
+      borderTopRightRadius: 6,
     },
     container: {
       flex: 1,
-      borderColor: "dodgerblue",
-      borderWidth: 3,
     },
     contentContainer: {
       flex: 1,
@@ -21,14 +21,16 @@ const styles = StyleSheet.create({
       justifyContent: "space-evenly",
       height: 'fit-content'
     },
+    link: {
+      fontWeight: 'bold'
+    },
     linksContainer: {
       flex: 1,
       marginTop: "25px",
-      backgroundColor: "grey",
       padding: "10px",
     },
     linkHeader: {
-      alignSelf: "center",
+      alignItems: "center",
       marginBottom: "5px",
     },
     musicContainer: {
@@ -36,19 +38,26 @@ const styles = StyleSheet.create({
       backgroundColor: "pink",
       borderTopLeftRadius: 6,
       borderBottomRightRadius: 6,
+      borderBottomLeftRadius: 6,
+      borderTopRightRadius: 6,
       height: "fit-parent",
       padding: "20px",
     },
     title: {
-      backgroundColor: "black",
-      height: "5%",
       color: 'white',
       fontFamily: 'Roboto',
       fontWeight: 'bold',
+    },
+    titleBar: {
+      backgroundColor: "black",
+      height: "5%",
       alignItems: "center",
+      justifyContent: 'center',
     },
     playerDescription: {
       marginTop: "10px",
+      alignSelf: 'center',
+      fontWeight: 'bold'
     },
     socialIcon: {
       width: "50%",
